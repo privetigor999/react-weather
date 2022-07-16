@@ -1,0 +1,11 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+.wrapper {
+  margin: 50px auto;
+  max-width: 800px;
+}

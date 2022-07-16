@@ -1,0 +1,24 @@
+.mainBlock {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: rgb(169, 129, 76);
+  width: 100%;
+  height: 300px;
+  margin-top: 200px;
+  border-radius: 30px;
+  border: 1px solid #ffffff;
+  .cityWeater {
+    flex: 50%;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    background: rgb(122, 127, 172);
+    border-right: 1px solid #ffffff;
+  }
+  .infoCity {
+    flex: 50%;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    background: rgb(122, 127, 172);
+  }
+}

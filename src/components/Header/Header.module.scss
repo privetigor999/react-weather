@@ -1,0 +1,27 @@
+header {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 160px;
+    height: 100%;
+    background: rgb(122, 127, 172);
+    border-radius: 20px;
+    font-size: 24px;
+    cursor: pointer;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    opacity: 0.5;
+  }
+  div:hover {
+    border: 1px solid rgb(0, 0, 0);
+    opacity: 1;
+    box-shadow: 0px 0px 10px rgba($color: #000000, $alpha: 1);
+  }
+}
